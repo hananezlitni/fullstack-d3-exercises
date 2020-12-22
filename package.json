@@ -1,0 +1,28 @@
+{
+  "name": "fullstack-d3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "npx npm-force-resolutions",
+    "prettier": "prettier \"src/**/*.{js,html}\" --write",
+    "lint": "eslint  \"src/**/*.{js,jsx}\" --quiet",
+    "dev": "parcel src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/plugin-transform-runtime": "^7.12.10",
+    "eslint": "^7.16.0",
+    "eslint-config-prettier": "^7.1.0",
+    "parcel-bundler": "^1.12.4",
+    "prettier": "^2.2.1"
+  },
+  "dependencies": {},
+  "resolutions": {
+    "node-forge": "0.10.0"
+  }
+}
